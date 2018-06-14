@@ -1,0 +1,12 @@
+{
+	"presets": [
+      "env", //默认行为是和babel-preset-latest是一样的
+      "react",
+      "stage-0"
+    ],
+	"plugins": [
+      "transform-runtime",
+      ["import", { "libraryName": "antd", "libraryDirectory": "es", "style": "css" }],
+      "react-hot-loader/babel"
+    ]
+}
