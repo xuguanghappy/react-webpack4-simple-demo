@@ -49,7 +49,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            title: 'XGhappy',
+            title: 'Demo',
             template: 'src/index.html'
         })
     ]

@@ -1,5 +1,5 @@
 {
-  "name": "baiwu",
+  "name": "reactSimpleDemo",
   "version": "1.0.0",
   "description": "react-redux-webpack-ant",
   "private": true,
@@ -11,9 +11,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://gitee.com/DaGuangDaddy/baiwu.git"
+    "url": "https://github.com/xuguanghappy/react-webpack4-simple-demo"
   },
-  "author": "baiwu",
+  "author": "xg",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^8.6.0",
