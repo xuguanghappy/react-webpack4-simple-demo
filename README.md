@@ -8,13 +8,11 @@ npm start
 npm run build
 
 ### combine reducer by auto
-<br>
 need creact reducer in folders inside of 'src/container' folder
 <br>
 get state by 'state[folder name]'
-<br>
 
-##### DEMO
+##### *DEMO*
 creat **reducer.js** inside **src/container/reduxtest**
 <br>
 reducer.js:  **export default reducer**
