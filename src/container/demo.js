@@ -41,7 +41,11 @@ export default class Demo extends Component {
   	}
 
   	render(){
-  		return <div>this is a demo</div>
+  		return (
+        <div>
+          <h2>this is a webpack4 demo</h2>
+        </div>
+      )
   	}
 
 }

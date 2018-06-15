@@ -1,5 +1,5 @@
 /**
- * auto combin reducers
+ * combin reducer.js within folders of 'src/container/'
  * Created by xg on 2018.
  */
 

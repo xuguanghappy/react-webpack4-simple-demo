@@ -8,8 +8,8 @@ export default class App extends React.Component{
 		return (
 			<div style={{marginTop: 60}}>
 				<Switch>
-					<Route path='/' component={ReduxTest}></Route>
-					<Route component={Demo}></Route>
+					<Route path='/' component={Demo}></Route>
+					<Route path='/reduxtest' component={ReduxTest}></Route>
 				</Switch>	
 			   
 			</div>

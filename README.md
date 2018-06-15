@@ -7,3 +7,21 @@ npm start
 ### production
 npm run build
 
+#### combine reducer by auto
+need creact reducer in folders inside of 'src/container' folder
+get state by 'state[folder name]'
+
+###### demo
+creat **reducer.js** inside **src/container/reduxtest**
+reducer.js:  **export default reducer**
+get state of **src/container/reduxtest/reducer.js**
+```
+function mapStateToProps(state){
+	//get state of folder 'reduxtest'
+	const data = state.reduxtest
+	return {
+		number: data.number
+	}
+}
+```
+
