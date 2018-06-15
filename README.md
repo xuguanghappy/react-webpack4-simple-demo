@@ -7,7 +7,9 @@ npm start
 ### production
 npm run build
 
-### combine reducer auto
+
+
+### about auto combine reducer
 need creact reducer in folders inside of 'src/container' folder
 <br>
 get state by 'state[folder name]'
