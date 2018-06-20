@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {Button} from 'antd';
 
 export default class Demo extends Component {
 
@@ -44,6 +45,7 @@ export default class Demo extends Component {
   		return (
         <div>
           <h2>this is a webpack4 demo</h2>
+          <Button type="primary">antd</Button>
         </div>
       )
   	}
